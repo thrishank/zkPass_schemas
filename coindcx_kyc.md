@@ -22,6 +22,13 @@ Verify whether the user has successfully completed the KYC process on CoinDCX.
 - **Host**: `api.coindcx.com`
 - **Endpoint**: `/api/v1/user_details`
 - **Method**: `GET`
+#### Sample JSON response 
+```json
+ ....,  
+    "signed_up_at": "2024-08-16T08:44:49.600Z",
+    "status": "kyc_verified",
+....
+```
 
 #### Verification Mechanism
 
@@ -89,3 +96,4 @@ This schema leverages zkPass's zero-knowledge proof technology to:
 - Access to zkPass verification platform
 
 ### schema validation proof
+<img width="1013" alt="Screenshot 2024-12-14 at 3 29 17 PM" src="https://github.com/user-attachments/assets/31027ad9-b2eb-4d2d-902f-d1ac52d6a28a" />
