@@ -49,7 +49,7 @@ The schema checks the wallet balance and ensures financial account authenticity 
       "assert": [
         {
           "key": "0|balance",
-          "value": "10000",
+          "value": "10000.0",
           "operation": ">"
         }
       ],
