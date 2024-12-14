@@ -41,7 +41,9 @@ The schema checks the user's KYC status by asserting that the `status` field equ
 
 ## Usage Instructions
 
-1 Log in to your CoinDCX account 2. Navigate to the profile section 3. Click the "Start" button to initiate the verification process
+- Log in to your CoinDCX account  
+- Navigate to the profile section  
+- Click the "Start" button to initiate the verification process
 
 ## Potential Use Cases
 
