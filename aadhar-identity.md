@@ -87,7 +87,7 @@ This schema is used to verify the user’s Indian residency by ensuring they pos
 
 Here’s a screenshot of the schema validation by zkpass schema validator extension, showing that the verification was successful:
 
-![image]()
+<img width="1036" alt="Screenshot 2024-12-14 at 2 49 36 PM" src="https://github.com/user-attachments/assets/03184fac-0c44-498b-94f2-abd117c2284b" />
 
 #### Real-World Use Cases
 
