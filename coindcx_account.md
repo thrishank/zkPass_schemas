@@ -14,9 +14,8 @@ This endpoint facilitates access to basic user account information, confirming t
 ```json
 {
   "coindcx_id": "USER12345",
-  "username": "trader_name",
-  "account_status": "active",
-  "verification_level": "level1"
+  "first_name": "trader_name",
+  "status": "kyc_verified"
 }
 ```
 
@@ -59,6 +58,8 @@ The schema verifies account existence by checking if the **coindcx_id** field is
 }
 ```
 
+
+
 ## Optional - Demo/Test Case
 
 This schema is used to verify the user's CoinDCX account existence, which is crucial for accessing platform-specific services and features.
@@ -76,6 +77,8 @@ This schema is used to verify the user's CoinDCX account existence, which is cru
 
 4. **Output:**
    The verification process will either pass or fail based on the **coindcx_id**. If the user has a registered CoinDCX account, the test will pass.
+
+<img width="1005" alt="Screenshot 2024-12-14 at 7 02 12 PM" src="https://github.com/user-attachments/assets/0430bca4-959a-40e1-a316-484cf1540615" />
 
 #### Real-World Use Cases
 
