@@ -77,3 +77,4 @@ The schema checks the wallet balance and ensures financial account authenticity 
    Automatically checks if your wallet balance exceeds 10,000
 
 This approach ensures secure, privacy-preserving financial verification.
+![image](https://github.com/user-attachments/assets/95b3c013-bfbf-4ca3-9449-45e6dc08b545)
