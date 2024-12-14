@@ -56,3 +56,5 @@ The schema is designed to verify the user’s residency within a state(ex. Andhr
 ```
 
 ## proof
+
+<img width="1047" alt="Screenshot 2024-12-14 at 3 08 45 PM" src="https://github.com/user-attachments/assets/0a75b28f-d383-426e-aa2e-bf08949bb949" />
