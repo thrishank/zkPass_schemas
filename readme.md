@@ -17,6 +17,8 @@ zkPass-transgate sdk, ensuring full compliance and functionality with live data 
 
 5. [Indian Residency State](https://github.com/thrishank/zkPass_schemas/blob/main/india-state.md)
 
+6. [Credit Score](https://github.com/thrishank/zkPass_schemas/blob/main/credit_score.md)
+
 ## Detailed Description
 
 ### 1. Aadhar National Identity Schema
@@ -24,35 +26,42 @@ zkPass-transgate sdk, ensuring full compliance and functionality with live data 
 - **Website**: DigiLocker (Government of India)
 - **Proving**: Indian Residency
 - **Significance**: Verifies Indian citizenship through the government's unique 12-digit identity number Aadhar.
-- **Main Page**: [aadhar-identity.md](https://github.com/thrishank/zkPass_schemas/blob/main/aadhar-identity.md)
+- [aadhar-identity.md](https://github.com/thrishank/zkPass_schemas/blob/main/aadhar-identity.md)
 
 ### 2. CoinDCX Account Verification Schema
 
 - **Website**: CoinDCX
 - **Proving**: Active CoinDCX Account Existence
 - **Significance**: Validates whethere the user has coindcx account or not.
-- **Main Page**: [coindcx_account.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_account.md)
+- [coindcx_account.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_account.md)
 
 ### 3. CoinDCX KYC Verification Schema
 
 - **Website**: CoinDCX
 - **Proving**: Know Your Customer (KYC) Verification status
 - **Significance**: verify's kyc status on coindcx, india's largest crypto exchange.
-- **Main Page**: [coindcx_kyc.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_kyc.md)
+- [coindcx_kyc.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_kyc.md)
 
 ### 4. CoinDCX Wallet Balance Schema
 
 - **Website**: CoinDCX
-- **Proving**:  Wallet Balance
-- **Significance**: Verifies user's balance in coindcx account.
-- **Main Page**: [coindcx_balance.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_balance.md)
+- **Proving**: Wallet Balance
+- **Significance**: Verifies user's balance in coindcx account. -
+- [coindcx_balance.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_balance.md)
 
 ### 5. Indian Residency State Schema
 
 - **Website**: State Government Verification
 - **Proving**: Specific Indian State Residency
 - **Significance**: Enables location-based service verification. Prove a person is from a state.
-- **Main Page**: [india-state.md](https://github.com/thrishank/zkPass_schemas/blob/main/india-state.md)
+- [india-state.md](https://github.com/thrishank/zkPass_schemas/blob/main/india-state.md)
+
+### 6. Credit Score Verification
+
+- Webiste: CRIF High Mark Credit Information
+- Proving: Credit Score
+- Significance: Proving credit score of a person. Which can be used for various financial services.Schema
+- [credit_score.md](https://github.com/thrishank/zkPass_schemas/blob/main/credit_score.md)
 
 ## About zkPass
 
