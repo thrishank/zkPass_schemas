@@ -23,35 +23,35 @@ zkPass-transgate sdk, ensuring full compliance and functionality with live data 
 
 - **Website**: DigiLocker (Government of India)
 - **Proving**: Indian Residency
-- **Significance**: Verifies Indian citizenship through the government's unique 12-digit identity number without exposing personal details.
+- **Significance**: Verifies Indian citizenship through the government's unique 12-digit identity number Aadhar.
 - **Main Page**: [aadhar-identity.md](https://github.com/thrishank/zkPass_schemas/blob/main/aadhar-identity.md)
 
 ### 2. CoinDCX Account Verification Schema
 
 - **Website**: CoinDCX
 - **Proving**: Active CoinDCX Account Existence
-- **Significance**: Validates user's registered status on India's largest crypto exchange platform, enabling seamless platform access.
+- **Significance**: Validates whethere the user has coindcx account or not.
 - **Main Page**: [coindcx_account.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_account.md)
 
 ### 3. CoinDCX KYC Verification Schema
 
 - **Website**: CoinDCX
-- **Proving**: Completed Know Your Customer (KYC) Verification
-- **Significance**: Confirms user's identity verification status for financial compliance and enhanced platform features.
+- **Proving**: Know Your Customer (KYC) Verification status
+- **Significance**: verify's kyc status on coindcx, india's largest crypto exchange.
 - **Main Page**: [coindcx_kyc.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_kyc.md)
 
 ### 4. CoinDCX Wallet Balance Schema
 
 - **Website**: CoinDCX
-- **Proving**: Minimum Wallet Balance
-- **Significance**: Verifies user's financial capacity and eligibility for advanced trading features without revealing exact balance.
+- **Proving**:  Wallet Balance
+- **Significance**: Verifies user's balance in coindcx account.
 - **Main Page**: [coindcx_balance.md](https://github.com/thrishank/zkPass_schemas/blob/main/coindcx_balance.md)
 
 ### 5. Indian Residency State Schema
 
 - **Website**: State Government Verification
 - **Proving**: Specific Indian State Residency
-- **Significance**: Enables location-based service verification and access to state-specific programs with complete privacy.
+- **Significance**: Enables location-based service verification. Prove a person is from a state.
 - **Main Page**: [india-state.md](https://github.com/thrishank/zkPass_schemas/blob/main/india-state.md)
 
 ## About zkPass
