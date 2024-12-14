@@ -24,10 +24,11 @@ Verify whether the user has successfully completed the KYC process on CoinDCX.
 - **Method**: `GET`
 #### Sample JSON response 
 ```json
- ....,  
+{
     "signed_up_at": "2024-08-16T08:44:49.600Z",
     "status": "kyc_verified",
-....
+     ........
+}
 ```
 
 #### Verification Mechanism
