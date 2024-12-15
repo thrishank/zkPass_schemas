@@ -8,43 +8,24 @@
 
 ### 1. Order History Endpoint
 
-`https://cir.crifhighmark.com/b2cInquiry/orderHistory/?=?`
+`GET https://cir.crifhighmark.com/b2cInquiry/dashboard/creditProfile/135256303/12243464379`
+Sample JSON Response
 
 ```json
 {
-  "PERSONAL_REPORT": [
-    {
-      "userId": "135256303",
-      "reportId": "FCR241213CR803069988",
-      "reportDate": "13 DEC 2024",
-      "reportTime": "09:57 PM",
-      "inquiryName": "Name",
-      "displayStatus": "002",
-      "productType": "B2C-CONSUMER-SCORE"
-    }
-  ]
+  "userId": "135256303",
+  "inquiryId": 12243464379,
+  "inquiryDate": "13 Dec 2024",
+  "totalLoanAmount": "0",
+  "creditScore": 761,
+  "alertLender": 0
 }
-```
-
-### 2. Performance Dashboard Endpoint
-
-`https://cir.crifhighmark.com/b2cInquiry/dashboard/performance/?=?`
-
-```json
-[
-  {
-    "inquiryId": "12243464379",
-    "creditScore": 761,
-    "inquiryDate": "13 Dec 2024",
-    "reportId": null
-  }
-]
 ```
 
 ## Technical Breakdown
 
 The schema is designed to securely verify a user's credit score using zkTLS
-The data is verified from the dashboard/performance GET request api. The creditScore field is checked to be greater than 700 to validate the credit score.
+The data is verified from the dashboard/creditProfile GET request api. The creditScore field is checked to be greater than 700 to validate the credit score.
 
 ## Schema Code
 
@@ -57,24 +38,17 @@ The data is verified from the dashboard/performance GET request api. The creditS
     {
       "host": "cir.crifhighmark.com",
       "intercept": {
-        "url": "b2cInquiry/orderHistory/?=?",
-        "method": "POST"
-      },
-      "nullifer": "PERSONAL_REPORT|0|userId"
-    },
-    {
-      "host": "cir.crifhighmark.com",
-      "intercept": {
-        "url": "b2cInquiry/dashboard/performance/?=?",
+        "url": "b2cInquiry/dashboard/creditProfile/?=?/?=?",
         "method": "GET"
       },
       "assert": [
         {
-          "key": "0|creditScore",
+          "key": "creditScore",
           "value": "700",
           "operation": ">"
         }
-      ]
+      ],
+      "nullifer": "0|inquiryId"
     }
   ],
   "HRCondition": ["Verify that you have a credit score of more than 700"],
