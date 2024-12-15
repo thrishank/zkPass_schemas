@@ -8,7 +8,7 @@
 
 ### 1. Order History Endpoint
 
-`GET https://cir.crifhighmark.com/b2cInquiry/dashboard/creditProfile/135256303/12243464379`
+`GET https://cir.crifhighmark.com/b2cInquiry/dashboard/creditProfile/135256303/12243464379`  
 Sample JSON Response
 
 ```json
