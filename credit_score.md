@@ -74,8 +74,7 @@ The data is verified from the dashboard/performance GET request api. The creditS
           "value": "700",
           "operation": ">"
         }
-      ],
-      "nullifer": "0|inquiryId"
+      ]
     }
   ],
   "HRCondition": ["Verify that you have a credit score of more than 700"],
