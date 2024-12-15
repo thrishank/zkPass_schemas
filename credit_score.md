@@ -48,7 +48,7 @@ The data is verified from the dashboard/creditProfile GET request api. The credi
           "operation": ">"
         }
       ],
-      "nullifer": "0|inquiryId"
+      "nullifer": "inquiryId"
     }
   ],
   "HRCondition": ["Verify that you have a credit score of more than 700"],
