@@ -29,15 +29,15 @@ We verify this from the date of birth field in the response. And compare it with
 ````json
 {
   "issuer": "Aadhar National Identity of India",
-  "desc": "Aadhar is a Indian identity card, which is a 12-digit unique identity number that can be obtained by residents of India, based on their biometric and demographic data.",
+  "desc": "Aadhar is an Indian identity card, which is a 12-digit unique identity number that can be obtained by residents of India, based on their biometric and demographic data.",
   "website": "https://www.digilocker.gov.in/login",
   "APIs": [
     {
       "host": "api-delhi-accounts-10001.digitallocker.gov.in",
       "intercept": {
         "url": "users/profile",
-        "method": "POST",
-      }
+        "method": "POST"
+      },
       "nullifier": "user_id"
     },
     {
@@ -54,11 +54,15 @@ We verify this from the date of birth field in the response. And compare it with
         }
       ]
     }
-
   ],
-  "HRCondition": ["verify you are over 18 years old"],
-    "tips": {
-    "message": "If you are already logged in the digilocker please logout and log in. When you successfully log in please click on the Aadhar Document, please click the 'Start' button to initiate the verification process."
+  "HRCondition": [
+    "verify you are over 18 years old"
+  ],
+  "tips": {
+    "message": "If you are already logged in to Digilocker, please logout and log in again. When you successfully log in, click on the Aadhar Document, and then click the 'Start' button to initiate the verification process."
   }
 }
 ````
+
+Tested with the zkPass validator extension and succuessfullly got the validator json response 
+<img width="611" alt="Screenshot 2024-12-16 at 12 32 39 PM" src="https://github.com/user-attachments/assets/89629982-a4d6-4f3a-af1b-19b3558be153" />
