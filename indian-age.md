@@ -33,11 +33,11 @@ We verify this from the date of birth field in the response. And compare it with
   "website": "https://www.digilocker.gov.in/login",
   "APIs": [
     {
-      "host": "ids.digilocker.gov.in",
+      "host": "api-delhi-accounts-10001.digitallocker.gov.in",
       "intercept": {
-        "url": "api/2.0/issueddocs",
-        "method": "POST"
-        },
+        "url": "users/profile",
+        "method": "POST",
+      }
       "nullifier": "user_id"
     },
     {
@@ -57,8 +57,8 @@ We verify this from the date of birth field in the response. And compare it with
 
   ],
   "HRCondition": ["verify you are over 18 years old"],
-  "tips": {
-    "message": "When you successfully log in, please click the 'Start' button to initiate the verification process."
+    "tips": {
+    "message": "If you are already logged in the digilocker please logout and log in. When you successfully log in please click on the Aadhar Document, please click the 'Start' button to initiate the verification process."
   }
 }
 ````

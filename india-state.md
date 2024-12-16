@@ -33,6 +33,14 @@ The schema is designed to verify the user’s residency within a state(ex. Andhr
   "website": "https://www.digilocker.gov.in/login",
   "APIs": [
     {
+      "host": "api-delhi-accounts-10001.digitallocker.gov.in",
+      "intercept": {
+        "url": "users/profile",
+        "method": "POST",
+      }
+      "nullifier": "user_id"
+    },
+    {
       "host": "ids.digilocker.gov.in",
       "intercept": {
         "url": "api/2.0/metadata",
@@ -44,13 +52,12 @@ The schema is designed to verify the user’s residency within a state(ex. Andhr
           "value": "Andhra Pradesh",
           "operation": "="
         }
-      ],
-      "nullifier": "residentName"
+      ]
     }
   ],
   "HRCondition": ["verify you are belong to the state of Andhra Pradesh"],
   "tips": {
-    "message": "When you successfully log in and click on the Aadhar, please click the 'Start' button to initiate the verification process."
+    "message": "If you are already logged in the digilocker please logout and log in. When you successfully log in please click on the Aadhar Document, please click the 'Start' button to initiate the verification process."
   }
 }
 ```
