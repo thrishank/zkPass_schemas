@@ -16,7 +16,6 @@
   "state": "Andhra Pradesh",
   "dateOfBirth": "2000-01-01",
   "gender": "M",
-  ...
 }
 ```
 
