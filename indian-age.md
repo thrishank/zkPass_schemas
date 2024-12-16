@@ -60,5 +60,5 @@ We verify this from the date of birth field in the response. And compare it with
   "tips": {
     "message": "When you successfully log in, please click the 'Start' button to initiate the verification process."
   }
-}```
+}
 ````
