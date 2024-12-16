@@ -28,7 +28,7 @@ We verify this from the date of birth field in the response. And compare it with
 
 ````json
 {
-  "issuer": "Aadhar National Identity of India",
+  "issuer": "Digilocker",
   "desc": "Aadhar is an Indian identity card, which is a 12-digit unique identity number that can be obtained by residents of India, based on their biometric and demographic data.",
   "website": "https://www.digilocker.gov.in/login",
   "APIs": [
