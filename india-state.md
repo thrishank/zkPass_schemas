@@ -28,15 +28,15 @@ The schema is designed to verify the user’s residency within a state(ex. Andhr
 ```json
 {
   "issuer": "Digilocker",
-  "desc": "Aadhar is a India identity card, which is a 12-digit unique identity number that can be obtained by residents of India, based on their biometric and demographic data.",
+  "desc": "Aadhar is an India identity card, which is a 12-digit unique identity number that can be obtained by residents of India, based on their biometric and demographic data.",
   "website": "https://www.digilocker.gov.in/login",
   "APIs": [
     {
       "host": "api-delhi-accounts-10001.digitallocker.gov.in",
       "intercept": {
         "url": "users/profile",
-        "method": "POST",
-      }
+        "method": "POST"
+      },
       "nullifier": "user_id"
     },
     {
@@ -54,9 +54,11 @@ The schema is designed to verify the user’s residency within a state(ex. Andhr
       ]
     }
   ],
-  "HRCondition": ["verify you are belong to the state of Andhra Pradesh"],
+  "HRCondition": [
+    "verify you belong to the state of Andhra Pradesh"
+  ],
   "tips": {
-    "message": "If you are already logged in the digilocker please logout and log in. When you successfully log in please click on the Aadhar Document, please click the 'Start' button to initiate the verification process."
+    "message": "If you are already logged in to Digilocker, please log out and log back in. When you successfully log in, please click on the Aadhar Document, and then click the 'Start' button to initiate the verification process."
   }
 }
 ```
