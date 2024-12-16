@@ -1,28 +1,13 @@
 # CoinDCX KYC Verification Schema
 
-## Overview
+## Data Source Name
 
-This zkPass schema is designed to verify a user's KYC (Know Your Customer) status on CoinDCX, India's largest cryptocurrency exchange. The schema provides a privacy-preserving method to confirm that a user has completed the KYC verification process without exposing sensitive personal information.
+CoinDCX is one of India’s leading cryptocurrency exchanges, offering a secure platform for trading Bitcoin, Ethereum, and other digital assets. Founded in 2018, it aims to simplify crypto investing and promote adoption with features like staking, lending, and educational initiatives.
 
-## Schema Description
+## API Endpoint URL
+`GET https://api.coindcx.com/api/v1/user_details`
 
-### Issuer
-
-- **Name**: CoinDCX
-- **Description**: India's largest cryptocurrency exchange platform
-
-### Verification Goal
-
-Verify whether the user has successfully completed the KYC process on CoinDCX.
-
-### Technical Details
-
-#### API Integration
-
-- **Host**: `api.coindcx.com`
-- **Endpoint**: `/api/v1/user_details`
-- **Method**: `GET`
-#### Sample JSON response 
+Sample JSON response 
 ```json
 {
     "signed_up_at": "2024-08-16T08:44:49.600Z",
@@ -51,20 +36,12 @@ The schema checks the user's KYC status by asserting that the `status` field equ
 - Accessing platform-specific features requiring verified status
 - Streamlining user onboarding for financial services
 
-## Privacy Considerations
-
-This schema leverages zkPass's zero-knowledge proof technology to:
-
-- Verify KYC status without revealing personal details
-- Protect user privacy during verification
-- Ensure secure and transparent identity validation
-
 ## Schema JSON
 
 ```json
 {
-  "issuer": "COINDCX is india's largest crytpo currency exchange",
-  "desc": "",
+  "issuer": "CoinDCX",
+  "desc": "COINDCX is india's largest crytpo currency exchange",
   "website": "https://coindcx.com/profile",
   "APIs": [
     {
@@ -91,12 +68,5 @@ This schema leverages zkPass's zero-knowledge proof technology to:
   }
 }
 ```
-
-## Requirements
-
-- Active CoinDCX account
-- Completed KYC verification
-- Access to zkPass verification platform
-
 ### schema validation proof
 <img width="1013" alt="Screenshot 2024-12-14 at 3 29 17 PM" src="https://github.com/user-attachments/assets/31027ad9-b2eb-4d2d-902f-d1ac52d6a28a" />
