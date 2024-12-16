@@ -55,3 +55,5 @@ To verify if a user has at least one Samsung device registered to their account,
   }
 }
 ```
+<img width="643" alt="Screenshot 2024-12-16 at 12 39 00 PM" src="https://github.com/user-attachments/assets/38b3b590-6706-4cde-923a-6eb98cff5f45" />
+
