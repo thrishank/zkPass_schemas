@@ -84,13 +84,6 @@ zkPass-transgate sdk, ensuring full compliance and functionality with live data 
 
 zkPass enables privacy-preserving verification of sensitive information through zero-knowledge proof technology. These schemas demonstrate practical applications across identity, finance, and location verification.
 
-## Key Features
-
-- 🔒 Privacy-First Design
-- 🌐 Multiple Domain Verification
-- 🛡️ Secure Data Validation
-- 🚀 Easy Integration
-
 ## Contributing
 
 Contributions, improvements, and additional schema ideas are welcome! Please open an issue or submit a pull request.
