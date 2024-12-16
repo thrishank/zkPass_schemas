@@ -63,6 +63,6 @@ The schema is designed to verify the user’s residency within a state(ex. Andhr
 }
 ```
 
-## proof
+Tested with the zkpass validator extension 
 
-<img width="1047" alt="Screenshot 2024-12-14 at 3 08 45 PM" src="https://github.com/user-attachments/assets/0a75b28f-d383-426e-aa2e-bf08949bb949" />
+<img width="650" alt="Screenshot 2024-12-16 at 12 24 15 PM" src="https://github.com/user-attachments/assets/35af56ed-e336-449d-b943-f6f1685c7684" />
