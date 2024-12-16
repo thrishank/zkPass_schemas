@@ -59,3 +59,5 @@ To verify if a user has an active Samsung account, we intercept the `GET` reques
   }
 }
 ```
+
+<img width="636" alt="Screenshot 2024-12-16 at 12 40 20 PM" src="https://github.com/user-attachments/assets/26fcba1d-2108-4c18-a842-6cadaad9bc05" />
