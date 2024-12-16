@@ -36,16 +36,16 @@ To implement a zero-knowledge proof (ZKP) using the Aadhaar API, we intercept th
 
 ```json
 {
-  "issuer": "Aadhar",
-  "desc": "Aadhar is Indian identity card, which is a 12-digit unique identity number that can be obtained by residents of India",
+  "issuer": "Digilocker",
+  "desc": "Aadhar is an Indian identity card, which is a 12-digit unique identity number that can be obtained by residents of India.",
   "website": "https://www.digilocker.gov.in/login",
   "APIs": [
     {
       "host": "api-delhi-accounts-10001.digitallocker.gov.in",
       "intercept": {
         "url": "users/profile",
-        "method": "POST",
-      }
+        "method": "POST"
+      },
       "nullifier": "user_id"
     },
     {
@@ -60,13 +60,14 @@ To implement a zero-knowledge proof (ZKP) using the Aadhaar API, we intercept th
           "value": " ",
           "operation": "!="
         }
-      ],
-      "nullifier": "residentName"
+      ]
     }
   ],
-  "HRCondition": ["verify you are an Indian resident"],
+  "HRCondition": [
+    "verify you are an Indian resident"
+  ],
   "tips": {
-    "message": "If you are already logged in the digilocker please logout and log in. When you successfully log in please click on the Aadhar Document, please click the 'Start' button to initiate the verification process."
+    "message": "If you are already logged in to Digilocker, please log out and log in again. When you successfully log in, please click on the Aadhar Document and then click the 'Start' button to initiate the verification process."
   }
 }
 ```
@@ -75,4 +76,5 @@ To implement a zero-knowledge proof (ZKP) using the Aadhaar API, we intercept th
 
 Here’s a screenshot of the schema validation by zkpass schema validator extension, showing that the verification was successful:
 
-<img width="1036" alt="Screenshot 2024-12-14 at 2 49 36 PM" src="https://github.com/user-attachments/assets/03184fac-0c44-498b-94f2-abd117c2284b" />
+ <img width="637" alt="Screenshot 2024-12-16 at 12 36 37 PM" src="https://github.com/user-attachments/assets/2667f1e3-0ffa-40cf-a76c-d15eba15b2ce" />
+
