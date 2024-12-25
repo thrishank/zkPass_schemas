@@ -80,10 +80,7 @@ zkPass-transgate sdk, ensuring full compliance and functionality with live data 
 - **Website**: Samsung
 - **Proving**: Number of Samsung Devices
 - **Significance**: Verifies the number of Samsung devices associated with a Samsung account.
-- [samsung_device_count.md](https://github.com/thrishank/zkPass_schemas/blob/main/samsung_device_count.md)## About zkPass
+- [samsung_device_count.md](https://github.com/thrishank/zkPass_schemas/blob/main/samsung_device_count.md)
 
 zkPass enables privacy-preserving verification of sensitive information through zero-knowledge proof technology. These schemas demonstrate practical applications across identity, finance, and location verification.
 
-## Contributing
-
-Contributions, improvements, and additional schema ideas are welcome! Please open an issue or submit a pull request.
