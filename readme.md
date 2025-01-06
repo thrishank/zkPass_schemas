@@ -49,14 +49,14 @@ zkPass-transgate sdk, ensuring full compliance and functionality with live data 
 
 ### 5. Indian Residency State Schema
 
-- **Website**: State Government Verification
+- **Website**: DigiLocker (Government of India)
 - **Proving**: Specific Indian State Residency
 - **Significance**: Enables location-based service verification. Proves a person is from a state.
 - [india-state.md](https://github.com/thrishank/zkPass_schemas/blob/main/india-state.md)
 
 ### 6. Indian Age Schema
 
-- **Website**: Government of India
+- **Website**: DigiLocker (Government of India)
 - **Proving**: Age Verification
 - **Significance**: Verifies the age of an individual based on government records.
 - [indian-age.md](https://github.com/thrishank/zkPass_schemas/blob/main/indian-age.md)
